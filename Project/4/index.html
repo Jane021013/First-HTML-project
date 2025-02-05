@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Grid Layout</title>
+
+    <link rel="stylesheet" href="../main.css" />
+    <link rel="icon" href="../gmu.png" />
+  </head>
+  <style>
+    #flex-container {
+      display: flex;
+      gap: 1%;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 100px;
+    }
+
+    .flex-item {
+      width: 25%;
+      border: 1px solid lightblue;
+      padding: 1%;
+      margin-bottom: 1%;
+    }
+    #flex-container > .flex-item > a > img {
+      width: 100%;
+    }
+    .grid-container {
+      display: grid;
+    }
+    .grid-item {
+      font-size: 2.5vw;
+    }
+  </style>
+  <body>
+    <ul class="navigation">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../login.html">Login</a></li>
+    </ul>
+
+    <div id="flex-container">
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="flex-item">
+        <a href="#">
+          <img src="./images/laptop.jpg" alt="" />
+          <div class="grid-container">
+            <div class="grid-item">Product description</div>
+            <div class="grid-item">$0000.00</div>
+            <div class="grid-item">At Store X</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
