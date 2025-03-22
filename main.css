@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: black;
+    padding: 10px 20px;
+    
+}
+
+.navigation a {
+        text-decoration: none;
+        color: white;
+}
+
+img#patriot {
+    width: 100px;
+    border-radius: 45%;
+    float: left;
+    margin-right: 5px;
+}
+
+p.username {
+    font-weight: bold;
+}
+
+#myCarousel {
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+   }
+
+
+ol a {
+    color: blue;
+    text-decoration: none;
+}

@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: black;
+    height: 40px;
+    
+}
+
+.navigation a {
+        text-decoration: none;
+        color: white;
+}
+
+img#patriot {
+    width: 100px;
+    border-radius: 45%;
+    float: left;
+    margin-right: 5px;
+}
+
+p.username {
+    font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+#myCarousel {
+ margin-bottom: 30px;
+ margin-right: 250px;
+ margin-left: 250px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20px;
+}
+
+#flex-container {
+    display: flex;
+    gap: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-item {
+    width: 25%;
+    border: 1px solid lightblue;
+    padding: 1%;
+    margin-bottom: 1%;
+  }
+  #flex-container > .flex-item > a > img {
+    width: 100%;
+  }
+  .grid-container {
+    display: grid;
+  }
+  .grid-item {
+    font-size: 2.5vw;
+  }
